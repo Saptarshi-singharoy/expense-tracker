@@ -20,8 +20,8 @@ const AddExpenseModal = (props: any) => {
   };
   return (
     <>
-      <Button style={styles.crossBtn} onPress={props.hideModal}>
-        X
+      <Button icon={'close'} style={styles.crossBtn} onPress={props.hideModal}>
+        {''}
       </Button>
       <View style={styles.container}>
         <Text variant="titleLarge">Add Expense</Text>
